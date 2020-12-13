@@ -21,6 +21,8 @@ class ViewController: UIViewController {
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //-- conform to delegate and protocol
         searchBar.delegate = self as! UISearchBarDelegate
         tblCountry.delegate = self
         tblCountry.dataSource = self
